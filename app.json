@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Flock Together",
+    "slug": "flock-together",
+    "version": "1.0.0",
+    "scheme": "flocktogether",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "backgroundColor": "#080806",
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": ["expo-router"]
+  }
+}
