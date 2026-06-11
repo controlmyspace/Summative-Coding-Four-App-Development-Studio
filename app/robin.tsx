@@ -62,7 +62,7 @@ export default function RobinArchive() {
 
         <View style={styles.container}>
           <Text style={styles.title}>Robin</Text>
-          <Text style={styles.latin}>Erithacus rubecula · community archive</Text>
+          <Text style={styles.latin}>Erithacus rubecula</Text>
 
           {/* community photo gallery */}
           <Text style={styles.sectionTitle}>FROM THE FLOCK</Text>
@@ -109,7 +109,7 @@ export default function RobinArchive() {
               {/* visual only, recording needs mic access + expo-av,
                   future development */}
               <Pressable style={styles.recordBtn}>
-                <Text style={styles.recordBtnText}>🎙 Add your recording</Text>
+                <Text style={styles.recordBtnText}> Add your recording</Text>
               </Pressable>
             </View>
           )}
@@ -127,7 +127,7 @@ export default function RobinArchive() {
           {tab === "Facts" &&
             facts.map((fact) => (
               <View key={fact.id} style={styles.factRow}>
-                <Text style={styles.factText}>🐦 {fact.text}</Text>
+                <Text style={styles.factText}> {fact.text}</Text>
                 <Text style={styles.obsBy}>- {fact.by}</Text>
               </View>
             ))}
