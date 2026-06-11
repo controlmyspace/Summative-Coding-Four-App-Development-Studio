@@ -5,7 +5,7 @@ Flock Together App for bird watching collective in London (and the diaspora). Ta
 
 **Instruction to open app:**
 
-1. Open ZIP
+1. Download & open ZIP
 2. open folder in terminal
 3. npm install
 4. npx expo start
