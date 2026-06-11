@@ -124,8 +124,7 @@ export default function Discover() {
               <View style={styles.birdsHeader}>
                 <Text style={styles.birdsHeaderTitle}>COMMUNITY ARCHIVE</Text>
                 <Text style={styles.birdsHeaderSub}>
-                  Built by the flock, bird by bird. Highlighted birds are
-                  open, more coming.
+                  Built by the flock, bird by bird.
                 </Text>
               </View>
             }
